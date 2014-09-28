@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RSS Reader</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		
+		<link rel="stylesheet" type="text/css" href="src/css/main.css"/>
+		
+		<script type="text/javascript">
+			dojoConfig  = {
+				isDebug: false,
+				parseOnLoad: false,
+				baseUrl: "src",
+				async: true,
+				packages: [
+					{ name: 'dojo',  location: 'dojo/dojo' },
+					{ name: 'dijit', location: 'dojo/dijit' },
+					{ name: 'dojox', location: 'dojo/dojox' },
+					{ name: 'rss',   location: 'rss' }
+				],
+				deps: ["rss/main"]
+			};
+		</script>
+		<script type="text/javascript" src="src/dojo/dojo/dojo.js"></script>
+	</head>
+	<body>
+		Lame
+	</body>
+</html>
